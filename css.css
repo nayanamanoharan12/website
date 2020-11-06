@@ -1,0 +1,106 @@
+#body{
+ margin:auto;
+}
+
+#contact{
+text-align:right;
+display: inline-block;
+}
+
+#logo{
+    float:left;
+    width: 140px;
+    height: 90px;
+
+}
+.logo-section{
+    display: inline-block;
+    width: 75%;
+    height: 80px;
+}
+
+h1,h2{
+    height:10px;
+}
+
+#mainmenu{
+    text-align: left;
+    background-color: orange;
+    margin-top: 20px;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+
+}
+#mainmenu li a{
+    color: black;
+    padding: 0px 15px;
+}
+#mainmenu li{
+    list-style: none;
+    display: inline-block;
+}
+.content{
+    display: flex;
+}
+ 
+
+#updates{
+    display: block;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+    background: rgba(0, 47, 255, 0.315);
+}
+.image-container{
+    height: 400px;
+    overflow: hidden;
+}
+#mainimage{
+    width: 100%;
+}
+.side-bar{
+    width: 20%;
+}
+.content-section{
+    width: 80%;
+}
+#updateshead{
+    background-color: rgb(7, 150, 207);
+    color: black;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+   }
+   
+   #aboutus{
+    width:100%;
+    height:100px ;
+    text-align: center;
+   } 
+   
+
+   #aboutushead{
+    background-color:yellowgreen;
+    text-align:left;
+    padding: 20px;
+    margin-bottom: 0px;
+   }
+
+   #marqueestyle{
+    background-color:rgba(0, 47, 255, 0.315);
+    padding:10px;
+   }
+   
+   #marqueestyle li{
+       list-style: none;
+       padding: 10px;
+       border-bottom: 1px solid #eee;
+   }
+
+   #aboutusdesc{
+    background-color:rgb(189, 224, 117);
+    padding:10px;
+    text-align:justify;
+   }
